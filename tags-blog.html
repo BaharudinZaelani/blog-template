@@ -1,0 +1,27 @@
+<!-- halaman utama -->
+<b:if cond='data:view.isHomepage'>
+    ----
+</b:if>
+
+<!-- halaman index : pencarian, label, halaman utama-->
+<b:if cond='data:view.isMultipleItems'>
+    ----
+</b:if>
+
+<!-- halaman item -->
+<b:if cond='data:view.isSingleItem'>
+    ----
+</b:if>
+
+<!-- halaman pencarian -->
+<b:if cond='data:view.isSearch and !data:view.isLabelSearch'>
+    ----
+</b:if>
+
+<!-- halaman 404 -->
+<b:if cond='data:view.isError'>
+    ----
+</b:if>
+
+<!-- section items -->
+<b:section class='blog-post' id='postingan'/>
