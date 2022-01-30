@@ -1,4 +1,4 @@
 # blog-template
 __meta tag
 - Meta tag SEO
-- tag html blogspot
+- conditional tag blogspot
